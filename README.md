@@ -309,7 +309,7 @@
   <header>
     <div class="moñito">🎀</div>
     <h1>Bienvenida Hermosa!</h1>
-    <p>A rincón de magia, ternura y elegancia 💜🌸🌙</p>
+    <p>A tu rincón de magia, ternura y elegancia 💜🌸🌙</p>
     <a href="https://wa.me/595992982248" class="boton-wsp" target="_blank" rel="noopener noreferrer">Hacé tu pedido por WhatsApp</a>
   </header>
 
