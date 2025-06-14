@@ -338,8 +338,8 @@
   </div>
 <div class="seccion-pago" style="text-align:center; padding: 30px;">
   <h2>Medios de pago 💰</h2>
-  <p><strong>✔️ Efectivo</strong>: al recibir el producto o acordar entrega.</p>
-  <p><strong>✔️ Transferencias bancarias</strong>:</p>
+  <p><strong>✔🌸 Efectivo</strong>: al recibir el producto o acordar entrega.</p>
+  <p><strong>✔🌸 Transferencias bancarias</strong></p>
   <footer>
   <p>Seguinos en redes ✨</p>
   <a href="https://www.instagram.com/koss___beauty" target="_blank" rel="noopener noreferrer">Instagram</a> |
@@ -361,7 +361,7 @@ Gracias a cada una de ustedes que confía en mí, estoy más cerca de cumplir es
   {
     nombre: "Corrector D`hermosa ",
     descripcion: "Cobertura precisa y práctica! Nuestro corrector en formato giratorio con aplicador en pincel ofrece una aplicación suave y uniforme.",
-    precio: 13500,
+    precio: 14500,
     imagen: "https://i.postimg.cc/rF6w3yyg/corrector.jpg"
   },
   {
@@ -403,7 +403,7 @@ Gracias a cada una de ustedes que confía en mí, estoy más cerca de cumplir es
   {
     nombre: "Mascarilla Facial 🍃",
     descripcion: "Cuida tu piel con frescura y amor. Mascarillas nutritivas que limpian, hidratan y renuevan tu rostro. ¡Ritual de belleza en minutos!",
-    precio: 1000,
+    precio: 1500,
     imagen: "https://i.postimg.cc/Y2WZSYYN/Whats-App-Image-2025-06-13-at-13-57-04.jpg"
   },
   {
