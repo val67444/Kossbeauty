@@ -619,6 +619,3 @@ cargarProductos(productosData);
 actualizarCarrito();
 cargarModo();
 </script>
-  </script>
-</body>
-</html>
