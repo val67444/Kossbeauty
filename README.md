@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -336,17 +336,28 @@
     <p>3. Finalizá en WhatsApp ✨</p>
     <p>4. Coordinamos entrega/envío 📦</p>
   </div>
-
+<div class="seccion-pago" style="text-align:center; padding: 30px;">
+  <h2>Medios de pago 💰</h2>
+  <p><strong>✔️ Efectivo</strong>: al recibir el producto o acordar entrega.</p>
+  <p><strong>✔️ Transferencias bancarias</strong>:</p>
   <footer>
-    <p>Seguinos en redes ✨</p>
-    <a href="https://www.instagram.com/koss___beauty" target="_blank" rel="noopener noreferrer">Instagram</a> |
-    <a href="https://tiktok.com/@kossbeauty" target="_blank" rel="noopener noreferrer">TikTok</a><br /><br />
-    <a href="nosotras.html" class="nosotras-link">Nosotras</a>
-  </footer>
+  <p>Seguinos en redes ✨</p>
+  <a href="https://www.instagram.com/koss___beauty" target="_blank" rel="noopener noreferrer">Instagram</a> |
+  <a href="https://tiktok.com/@kossbeauty" target="_blank" rel="noopener noreferrer">TikTok</a><br /><br />
+
+  <p style="max-width: 500px; margin: auto; font-size: 0.95em; line-height: 1.5;">
+   <h2>Mi Historia 💜</h2>
+
+Kossbeauty nació el 23 de septiembre del 2024, como un sueño personal lleno de ilusión. Desde siempre soñé con tener mi propia tienda, y aunque empecé sola, puse todo mi corazón, esfuerzo y dedicación en cada detalle.🌸
+
+Gracias a cada una de ustedes que confía en mí, estoy más cerca de cumplir ese gran sueño: abrir mi tienda física. Cada compra, cada mensaje y cada gesto me llena el alma. 
+¡Gracias por ser parte de esto! ✨🌷
+  </p>
+</footer>
 
   <script>
     // Productos (puedes añadir más fácilmente aquí)
-    const productosData = [
+    const productosData = [ 
   {
     nombre: "Corrector D`hermosa ",
     descripcion: "Cobertura precisa y práctica! Nuestro corrector en formato giratorio con aplicador en pincel ofrece una aplicación suave y uniforme.",
@@ -362,7 +373,7 @@
   {
     nombre: "Kit iluminador y broncer 🦋",
     descripcion: "Set para brillar y florecer como vos 🌸",
-    precio: 13500,
+    precio: 12500,
     imagen: "https://i.postimg.cc/SR4NXVv3/iluminador.jpg"
   },
   {
@@ -380,7 +391,7 @@
   {
     nombre: "Hebilla de Flor 🌸",
     descripcion: "Accesorio tierno y delicado para darle un toque mágico a tu peinado. ¡La flor que te acompaña con estilo!",
-    precio: 7500,
+    precio: 7000,
     imagen: "https://i.postimg.cc/c4JxjFV1/Whats-App-Image-2025-06-13-at-13-54-24.jpg"
   },
   {
@@ -392,7 +403,7 @@
   {
     nombre: "Mascarilla Facial 🍃",
     descripcion: "Cuida tu piel con frescura y amor. Mascarillas nutritivas que limpian, hidratan y renuevan tu rostro. ¡Ritual de belleza en minutos!",
-    precio: 1500,
+    precio: 1000,
     imagen: "https://i.postimg.cc/Y2WZSYYN/Whats-App-Image-2025-06-13-at-13-57-04.jpg"
   },
   {
@@ -400,6 +411,27 @@
     descripcion: "Dulce color y aroma irresistible. Este labial cremoso con esencia frutal es ideal para labios suaves y con vida.",
     precio: 10500,
     imagen: "https://i.postimg.cc/4dhLmR74/Whats-App-Image-2025-06-13-at-13-57-04-1.jpg"
+  },
+ // ... Otros productos
+  {
+    nombre: "Mascara de Pestañas Volumen Total SkyHigh",
+    descripcion: "Para tener pestañas largas y voluminosas, como siempre soñaste.",
+    precio: 15000,
+    imagen: " https://i.postimg.cc/RC1q9BLc/Whats-App-Image-2025-06-14-at-07-09-38.jpg"
+  },
+  // ... Otros productos
+  {
+    nombre: "Pinza Destino ✨",
+    descripcion: "Sujeta tu cabello con estilo y energía linda, como vos 💜.",
+    precio: 8000,
+    imagen: "https://i.postimg.cc/ncvW0dZV/Whats-App-Image-2025-06-14-at-07-09-37.jpg"
+  },
+  // ... Otros productos
+  {
+    nombre: "Tint Hechizo 💜",
+    descripcion: "Brillo, color y actitud. Todo en uno, como vos..",
+    precio: 10500,
+    imagen: "https://i.postimg.cc/9XN9sVmJ/Whats-App-Image-2025-06-14-at-07-09-36.jpg"
   }
 
     ];
@@ -517,38 +549,76 @@
       finalizarLink.style.opacity = '1';
     }
 
-    // MODO OSCURO
-    function cargarModo() {
-      const modo = localStorage.getItem('modo') || 'claro';
-      if(modo === 'oscuro') {
-        document.body.classList.add('dark');
-        btnModo.textContent = '☀️';
-        btnModo.setAttribute('aria-label', 'Cambiar a modo claro');
-      } else {
-        document.body.classList.remove('dark');
-        btnModo.textContent = '🌙';
-        btnModo.setAttribute('aria-label', 'Cambiar a modo oscuro');
-      }
-    }
+    // FUNCIONES PARA DECORACIONES
 
-    btnModo.addEventListener('click', () => {
-      document.body.classList.toggle('dark');
-      if(document.body.classList.contains('dark')){
-        btnModo.textContent = '☀️';
-        btnModo.setAttribute('aria-label', 'Cambiar a modo claro');
-        localStorage.setItem('modo', 'oscuro');
-      } else {
-        btnModo.textContent = '🌙';
-        btnModo.setAttribute('aria-label', 'Cambiar a modo oscuro');
-        localStorage.setItem('modo', 'claro');
-      }
-    });
+function crearDecoraciones(tipo) {
+  // Elimina decoraciones anteriores
+  document.querySelectorAll('.decoracion').forEach(e => e.remove());
 
-    // Inicializaciones
-    cargarProductos(productosData);
-    actualizarCarrito();
-    cargarModo();
+  const cantidad = 20;
+  for (let i = 0; i < cantidad; i++) {
+    const deco = document.createElement('div');
+    deco.classList.add('decoracion');
+    deco.textContent = tipo === 'estrella' ? '✨' : '🦋';
 
+    // Estilos más suaves
+    const size = Math.random() * 1 + 0.6; // más pequeñas
+    deco.style.fontSize = `${size}em`;
+    deco.style.position = 'fixed';
+    deco.style.top = `${Math.random() * 100}vh`;
+    deco.style.left = `${Math.random() * 100}vw`;
+    deco.style.pointerEvents = 'none';
+    deco.style.opacity = '0.25'; // MUCHO más sutil
+    deco.style.zIndex = '-1'; // más al fondo
+    deco.style.userSelect = 'none';
+    deco.style.filter = 'blur(0.5px)';
+    deco.style.animation = 'flotar 15s ease-in-out infinite';
+    deco.style.transform = `rotate(${Math.random() * 360}deg)`;
+
+    document.body.appendChild(deco);
+  }
+
+}
+
+// BOTÓN DE MODO OSCURO
+
+btnModo.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  if (document.body.classList.contains('dark')) {
+    btnModo.textContent = '☀️';
+    btnModo.setAttribute('aria-label', 'Cambiar a modo claro');
+    localStorage.setItem('modo', 'oscuro');
+    crearDecoraciones('estrella');
+  } else {
+    btnModo.textContent = '🌙';
+    btnModo.setAttribute('aria-label', 'Cambiar a modo oscuro');
+    localStorage.setItem('modo', 'claro');
+    crearDecoraciones('mariposa');
+  }
+});
+
+// CARGAR MODO GUARDADO + DECORACIONES
+
+function cargarModo() {
+  const modo = localStorage.getItem('modo') || 'claro';
+  if (modo === 'oscuro') {
+    document.body.classList.add('dark');
+    btnModo.textContent = '☀️';
+    btnModo.setAttribute('aria-label', 'Cambiar a modo claro');
+    crearDecoraciones('estrella');
+  } else {
+    document.body.classList.remove('dark');
+    btnModo.textContent = '🌙';
+    btnModo.setAttribute('aria-label', 'Cambiar a modo oscuro');
+    crearDecoraciones('mariposa');
+  }
+}
+
+// INICIALIZACIONES
+cargarProductos(productosData);
+actualizarCarrito();
+cargarModo();
+</script>
   </script>
 </body>
 </html>
