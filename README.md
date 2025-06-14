@@ -1,14 +1,9 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kossbeauty</title>
-</head>
-<body>
-  <h1>bienvenidas!</h1>
-  <p>🌸💜</p>
-</html>
   <style>
     :root {
       --color-fondo-claro: #f5eafd;
