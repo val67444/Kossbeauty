@@ -634,7 +634,7 @@ Sin ustedes, esto no sería posible. Los amo. 💖
   {
     nombre: "Tint Hechizo 💜",
     descripcion: "Brillo, color y actitud. Todo en uno, como vos..",
-    precio: 10500,
+    precio: 11500,
     imagen: "https://i.postimg.cc/9XN9sVmJ/Whats-App-Image-2025-06-14-at-07-09-36.jpg"
   }
 
