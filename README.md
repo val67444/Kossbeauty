@@ -67,6 +67,20 @@
       color: var(--color-texto-claro);
       background-color: white;
     }
+    lista.forEach((producto, index) => {
+  const prodDiv = document.createElement('div');
+  prodDiv.classList.add('producto');
+  prodDiv.style.animationDelay = `${index * 0.1}s`; // 💡 NUEVO
+  prodDiv.innerHTML = `
+    <img src="${producto.imagen}" alt="${producto.nombre}" />
+    <h3>${producto.nombre}</h3>
+    <p>${producto.descripcion}</p>
+    <strong>Gs. ${producto.precio.toLocaleString()}</strong>
+    <button onclick="agregarAlCarrito(${index})">Agregar al carrito</button>
+  `;
+  catalogo.appendChild(prodDiv);
+});
+
     .catalogo {
       display: flex;
       justify-content: center;
@@ -312,6 +326,60 @@
   100% {
     transform: translateY(0) rotate(360deg);
   }
+}
+
+    /* 🌸 Animación de productos */
+.producto {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 0.8s ease forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 💓 Título con latido */
+h1 {
+  animation: latido 3s ease-in-out infinite;
+}
+
+@keyframes latido {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+/* ✨ Fondo animado claro y oscuro */
+body {
+  background: linear-gradient(270deg, #f5eafd, #fce4ff, #f5eafd);
+  background-size: 600% 600%;
+  animation: fondoMovil 60s ease infinite;
+}
+
+body.dark {
+  background: linear-gradient(270deg, #2a1a3f, #3b2b5a, #2a1a3f);
+}
+
+/* Animación del fondo */
+@keyframes fondoMovil {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 🌙 Giro al cambiar de modo */
+#btn-modo {
+  transition: transform 0.4s ease;
+}
+#btn-modo.rotar {
+  transform: rotate(360deg);
 }
 
   </style>
@@ -603,6 +671,11 @@ function crearDecoraciones(tipo) {
 
 btnModo.addEventListener('click', () => {
   document.body.classList.toggle('dark');
+  
+  // ✨ Giro de botón
+  btnModo.classList.add('rotar');
+  setTimeout(() => btnModo.classList.remove('rotar'), 400);
+  
   if (document.body.classList.contains('dark')) {
     btnModo.textContent = '☀️';
     btnModo.setAttribute('aria-label', 'Cambiar a modo claro');
@@ -615,6 +688,7 @@ btnModo.addEventListener('click', () => {
     crearDecoraciones('mariposa');
   }
 });
+
 
 // CARGAR MODO GUARDADO + DECORACIONES
 
