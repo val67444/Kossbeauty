@@ -81,13 +81,15 @@
   catalogo.appendChild(prodDiv);
 });
 
-    .catalogo {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 30px;
-      padding: 20px;
-    }
+   .catalogo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* 💡 Esto centra horizontalmente el contenedor */
+}
     .producto {
       background: var(--color-producto-fondo-claro);
       border-radius: 15px;
