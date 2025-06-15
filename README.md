@@ -82,8 +82,8 @@
 });
 
 .catalogo {
-  max-width: 1200px;    /* Limita el ancho máximo */
-  margin: 0 auto;       /* Centra horizontalmente */
+  max-width: 1200px;
+  margin: 0 auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -94,30 +94,44 @@
 }
 
 .producto {
-  background: white;
-  border-radius: 10px;
+  background: var(--color-producto-fondo-claro, white);
+  border-radius: 15px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  padding: 15px;
-  width: 220px;         /* Ancho fijo para controlar layout */
+  padding: 20px;
+  width: 250px;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Centra contenido interno */
-  text-align: center;   /* Centra texto */
+  align-items: center;
+  text-align: center;
 }
 
 .producto img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 12px;
 }
 
+.producto h3 {
+  margin: 10px 0;
+  color: #8a3dbb;
+}
+
+.producto p {
+  font-size: 0.95em;
+}
+
+.producto strong {
+  font-size: 1.2em;
+  color: #5b2b82;
+}
+
 .producto button {
-  margin-top: auto;     /* Empuja el botón abajo */
-  padding: 8px 12px;
-  border: none;
-  background-color: #a05fc7;
+  margin-top: auto;
+  padding: 8px 16px;
+  background-color: var(--color-boton-producto-claro, #a05fc7);
   color: white;
+  border: none;
   border-radius: 15px;
   cursor: pointer;
   user-select: none;
@@ -128,39 +142,6 @@
   background-color: #7a3e99;
 }
 
-    .producto {
-      background: var(--color-producto-fondo-claro);
-      border-radius: 15px;
-      padding: 20px;
-      width: 250px;
-      text-align: center;
-      box-shadow: 0 0 8px rgba(116, 53, 165, 0.3);
-    }
-    .producto img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    .producto h3 {
-      margin: 10px 0;
-      color: #8a3dbb;
-    }
-    .producto p {
-      font-size: 0.95em;
-    }
-    .producto strong {
-      font-size: 1.2em;
-      color: #5b2b82;
-    }
-    .producto button {
-      margin-top: 10px;
-      padding: 8px 16px;
-      background-color: var(--color-boton-producto-claro);
-      color: white;
-      border: none;
-      border-radius: 15px;
-      cursor: pointer;
-      user-select: none;
-    }
     #carrito-icono {
       position: fixed;
       top: 20px;
