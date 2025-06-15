@@ -423,6 +423,15 @@ body.dark {
     <p>3. Finalizá en WhatsApp ✨</p>
     <p>4. Coordinamos entrega/envío 📦</p>
   </div>
+ 
+   <div class="seccion-delivery" style="text-align: center; padding: 20px;">
+  <h2>Envíos y Entregas 🚚</h2>
+  <p>📍 Envíos disponibles en todo Asunción y Fernando zona sur </p>
+  <p>🕐 Coordinamos horarios flexibles.</p>
+  <p>💰 Costo de delivery varía según zona .</p>
+  <p>💜 También podés retirar en zona <strong>Fernando zona sur </strong>.</p>
+</div>
+
 <div class="seccion-pago" style="text-align:center; padding: 30px;">
   <h2>Medios de pago 💰</h2>
   <p><strong>✔🌸 Efectivo</strong>: al recibir el producto o acordar entrega.</p>
