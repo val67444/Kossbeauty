@@ -125,7 +125,7 @@
       position: fixed;
       top: 20px;
       right: 20px;
-      font-size: 1.7em;
+      font-size: 1.3em;
       background-color: var(--color-boton-producto-claro);
       color: white;
       padding: 10px 20px;
