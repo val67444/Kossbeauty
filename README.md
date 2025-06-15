@@ -382,6 +382,18 @@ body.dark {
   transform: rotate(360deg);
 }
 
+                                    .seccion-delivery {
+  background-color: #fceaff;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(116, 53, 165, 0.2);
+}
+body.dark .seccion-delivery {
+  background-color: #3b2b5a;
+  color: var(--color-texto-oscuro);
+  box-shadow: 0 0 10px rgba(186, 150, 255, 0.4);
+}
   </style>
 </head>
 <body>
