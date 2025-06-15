@@ -578,7 +578,7 @@ function crearDecoraciones(tipo) {
   for (let i = 0; i < cantidad; i++) {
     const deco = document.createElement('div');
     deco.classList.add('decoracion');
-    deco.textContent = tipo === 'estrella' ? '✨' : '🦋';
+    deco.textContent = tipo === 'estrella' ? '✨' : '🌸';
 
     // Estilos más suaves
     const size = Math.random() * 1 + 0.6; // más pequeñas
