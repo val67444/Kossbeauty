@@ -394,10 +394,101 @@ body.dark .seccion-delivery {
   color: var(--color-texto-oscuro);
   box-shadow: 0 0 10px rgba(186, 150, 255, 0.4);
 }
+<head>
+  <style>
+    /* 👇 Pon esto dentro del style */
+    .mensaje {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: none;
+      z-index: 1000;
+    }
+
+    #pantalla-bienvenida {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f5eafd;
+  color: #7435a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 20px;
+  animation: fadeOut 1s ease forwards;
+  animation-delay: 3s; /* Duración antes de desaparecer */
+  pointer-events: none;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#pantalla-bienvenida {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f5eafd;
+  color: #7435a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  animation: fadeOut 1s ease forwards;
+  animation-delay: 3s;
+  pointer-events: none;
+}
+
+#pantalla-bienvenida img {
+  width: 279px; /* o 300px si querés más grande */
+  margin-bottom: 20px;
+}
+
+.contenido-bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+                                    
   </style>
 </head>
 <body>
+<div id="pantalla-bienvenida">
+  <div class="contenido-bienvenida">
+    <img src="https://i.postimg.cc/RCnnNC2y/Whats-App-Image-2025-06-15-at-12-18-22.jpg" alt="Logo de la marca" />
+    <h2> </h2>
+  </div>
+</div>
 
+
+<div id="mensaje-agregado" class="mensaje">
+  ¡Producto agregado con amor! 💕
+</div>
   <!-- Botón modo oscuro -->
   <button id="btn-modo" aria-label="Cambiar modo oscuro">🌙</button>
 
