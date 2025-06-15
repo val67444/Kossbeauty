@@ -453,7 +453,7 @@ body.dark .seccion-delivery {
   text-align: center;
   padding: 20px;
   animation: fadeOut 1s ease forwards;
-  animation-delay: 3s;
+  animation-delay: 1.2s;
   pointer-events: none;
 }
 
