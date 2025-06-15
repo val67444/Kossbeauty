@@ -551,8 +551,11 @@ body.dark .seccion-delivery {
 
 Kossbeauty nació el 10 de septiembre del 2024, como un sueño personal lleno de ilusión. Desde siempre soñé con tener mi propia tienda, y aunque empecé sola, puse todo mi corazón, esfuerzo y dedicación en cada detalle.🌸
 
-Gracias a cada una de ustedes que confía en mí, estoy más cerca de cumplir ese gran sueño: abrir mi tienda física. Cada compra, cada mensaje y cada gesto me llena el alma. 
+Gracias a cada una de ustedes que confía en mí, estoy más cerca de cumplir ese gran sueño: abrir mi tienda física. Cada compra, cada mensaje y cada gesto me llena el alma.
 ¡Gracias por ser parte de esto! ✨🌷
+
+Quiero hacer un agradecimiento especial a mi mamá y mi hermano, que siempre estuvieron a mi lado en cada paso, apoyándome, animándome y creyendo en mí, incluso cuando yo dudaba.
+Sin ustedes, esto no sería posible. Los amo. 💖
   </p>
 </footer>
 
