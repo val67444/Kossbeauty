@@ -81,15 +81,53 @@
   catalogo.appendChild(prodDiv);
 });
 
-   .catalogo {
+.catalogo {
+  max-width: 1200px;    /* Limita el ancho máximo */
+  margin: 0 auto;       /* Centra horizontalmente */
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto; /* 💡 Esto centra horizontalmente el contenedor */
+  box-sizing: border-box;
 }
+
+.producto {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 15px;
+  width: 220px;         /* Ancho fijo para controlar layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centra contenido interno */
+  text-align: center;   /* Centra texto */
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.producto button {
+  margin-top: auto;     /* Empuja el botón abajo */
+  padding: 8px 12px;
+  border: none;
+  background-color: #a05fc7;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #7a3e99;
+}
+
     .producto {
       background: var(--color-producto-fondo-claro);
       border-radius: 15px;
