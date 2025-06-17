@@ -778,7 +778,7 @@ function crearDecoraciones(tipo) {
   // Elimina decoraciones anteriores
   document.querySelectorAll('.decoracion').forEach(e => e.remove());
 
-  const cantidad = 40;
+  const cantidad = 49;
   for (let i = 0; i < cantidad; i++) {
     const deco = document.createElement('div');
     deco.classList.add('decoracion');
