@@ -524,7 +524,7 @@ body.dark .seccion-delivery {
     <a href="https://wa.me/595992982248" class="boton-wsp" target="_blank" rel="noopener noreferrer">Hacé tu pedido por WhatsApp</a>
   </header>
 
-  <input type="text" id="buscador" placeholder="Buscar productos..." aria-label="Qué producto estás buscando hoy, hermosa? 🌸" />
+  <input type="text" id="buscador" placeholder="Qué producto estás buscando hoy, hermosa?🌸" aria-label="Qué producto estás buscando hoy, hermosa? 🌸" />
 
   <div id="mensaje" class="mensaje" role="alert" aria-live="polite">¡Producto agregado con amor! 💕</div>
 
