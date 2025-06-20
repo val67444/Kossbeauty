@@ -677,6 +677,37 @@ Sin ustedes, esto no sería posible. Los amo. 💖
 }
 ];
     
+   // Variables DOM
+    const catalogo = document.getElementById('catalogo');
+    const carritoIcono = document.getElementById('carrito-icono');
+    const carritoContador = document.getElementById('contador');
+    const carritoDiv = document.getElementById('carrito');
+    const listaCarrito = document.getElementById('lista-carrito');
+    const totalSpan = document.getElementById('total');
+    const mensaje = document.getElementById('mensaje');
+    const btnModo = document.getElementById('btn-modo');
+    const buscador = document.getElementById('buscador');
+    const finalizarLink = document.getElementById('finalizar');
+
+    let carrito = [];
+
+    // Cargar productos dinámicamente
+    function cargarProductos(lista) {
+      catalogo.innerHTML = '';
+      lista.forEach((producto, index) => {
+        const prodDiv = document.createElement('div');
+        prodDiv.classList.add('producto');
+        prodDiv.innerHTML = `
+          <img src="${producto.imagen}" alt="${producto.nombre}" />
+          <h3>${producto.nombre}</h3>
+          <p>${producto.descripcion}</p>
+          <strong>Gs. ${producto.precio.toLocaleString()}</strong>
+          <button onclick="agregarAlCarrito(${index})">Agregar al carrito</button>
+        `;
+        catalogo.appendChild(prodDiv);
+      });
+      
+    }  
 
     // Agregar producto al carrito
     function agregarAlCarrito(indice) {
