@@ -635,61 +635,48 @@ Sin ustedes, esto no sería posible. Los amo. 💖
     precio: 11500,
     imagen: "https://i.postimg.cc/4dhLmR74/Whats-App-Image-2025-06-13-at-13-57-04-1.jpg"
   },
- // ... Otros productos
-  {
-    nombre: "Mascara de Pestañas Volumen Total SkyHigh",
-    descripcion: "Para tener pestañas largas y voluminosas, como siempre soñaste.",
-    precio: 15000,
-    imagen: " https://i.postimg.cc/RC1q9BLc/Whats-App-Image-2025-06-14-at-07-09-38.jpg"
-  },
-  // ... Otros productos
-  {
-   nombre: "Kitti kiss🐈‍",
-    descripcion: "Hidrata, cuida y resalta tu belleza natural.  .",
-    precio: 15000,
-    imagen: "https://i.postimg.cc/sDqcXwRd/Whats-App-Image-2025-06-20-at-06-44-26.jpg"
-  },
-  // ... Otros productos
-  {
-     nombre: "Lip oil ✨",
-    descripcion: "Nutre, repara brillo natural que cambia con el pH de tus labios.",
-    precio: 11500,
-    imagen: "https://i.postimg.cc/pTM8b68k/Whats-App-Image-2025-06-20-at-06-44-25.jpg"
-  }
-
-    ];
-
-    // Variables DOM
-    const catalogo = document.getElementById('catalogo');
-    const carritoIcono = document.getElementById('carrito-icono');
-    const carritoContador = document.getElementById('contador');
-    const carritoDiv = document.getElementById('carrito');
-    const listaCarrito = document.getElementById('lista-carrito');
-    const totalSpan = document.getElementById('total');
-    const mensaje = document.getElementById('mensaje');
-    const btnModo = document.getElementById('btn-modo');
-    const buscador = document.getElementById('buscador');
-    const finalizarLink = document.getElementById('finalizar');
-
-    let carrito = [];
-
-    // Cargar productos dinámicamente
-    function cargarProductos(lista) {
-      catalogo.innerHTML = '';
-      lista.forEach((producto, index) => {
-        const prodDiv = document.createElement('div');
-        prodDiv.classList.add('producto');
-        prodDiv.innerHTML = `
-          <img src="${producto.imagen}" alt="${producto.nombre}" />
-          <h3>${producto.nombre}</h3>
-          <p>${producto.descripcion}</p>
-          <strong>Gs. ${producto.precio.toLocaleString()}</strong>
-          <button onclick="agregarAlCarrito(${index})">Agregar al carrito</button>
-        `;
-        catalogo.appendChild(prodDiv);
-      });
-      
-    }
+// ... Otros productos
+{
+  nombre: "Mascara de Pestañas Volumen Total SkyHigh",
+  descripcion: "Para tener pestañas largas y voluminosas, como siempre soñaste.",
+  precio: 15000,
+  imagen: " https://i.postimg.cc/RC1q9BLc/Whats-App-Image-2025-06-14-at-07-09-38.jpg"
+},
+// ... Otros productos
+{
+  nombre: "Kitti kiss🐈‍",
+  descripcion: "Hidrata, cuida y resalta tu belleza natural.",
+  precio: 15000,
+  imagen: "https://i.postimg.cc/sDqcXwRd/Whats-App-Image-2025-06-20-at-06-44-26.jpg"
+},
+// ... Otros productos
+{
+  nombre: "Lip oil ✨",
+  descripcion: "Nutre, repara brillo natural que cambia con el pH de tus labios.",
+  precio: 11500,
+  imagen: "https://i.postimg.cc/pTM8b68k/Whats-App-Image-2025-06-20-at-06-44-25.jpg"
+},
+// Nuevos productos
+{
+  nombre: "What A Tint!💎",
+  descripcion: "Son un producto 2 en 1, no pegajoso y con una consistencia similar al agua.",
+  precio: 11500,
+  imagen: "https://i.postimg.cc/NMLnSbhN/Whats-App-Image-2025-06-20-at-06-44-26-1.jpg"
+},
+{
+  nombre: "Mascarilla para labios✨",
+  descripcion: "Besitos suaves, labios renovados. Mientras dormís, ella hace su magia.",
+  precio: 5000,
+  imagen: "https://i.postimg.cc/sgMdtVpP/Whats-App-Image-2025-06-20-at-07-34-29.jpg"
+},
+{
+  nombre: "Mascarillas faciales frutales🍏",
+  descripcion: "Despertá tu piel con un shot de energía. Textura ligera y perfume cítrico.",
+  precio: 6000,
+  imagen: "https://i.postimg.cc/P5sQkyD6/Whats-App-Image-2025-06-20-at-07-34-29-1.jpg"
+}
+];
+    
 
     // Agregar producto al carrito
     function agregarAlCarrito(indice) {
