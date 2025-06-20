@@ -602,7 +602,7 @@ Sin ustedes, esto no sería posible. Los amo. 💖
   {
     nombre: "Jelly Tint",
     descripcion: "Enamórate de esta innovadora tinta para labios y mejillas de larga duración. ¡Un toque y sos arte! ✨",
-    precio: 12000,
+    precio: 13500,
     imagen: "https://i.postimg.cc/HkMYtq1R/Whats-App-Image-2025-06-13-at-11-32-30-2.jpg"
   },
   {
@@ -632,7 +632,7 @@ Sin ustedes, esto no sería posible. Los amo. 💖
   {
     nombre: "Labial de Frutilla 🍓",
     descripcion: "Dulce color y aroma irresistible. Este labial cremoso con esencia frutal es ideal para labios suaves y con vida.",
-    precio: 10500,
+    precio: 11500,
     imagen: "https://i.postimg.cc/4dhLmR74/Whats-App-Image-2025-06-13-at-13-57-04-1.jpg"
   },
  // ... Otros productos
@@ -644,17 +644,17 @@ Sin ustedes, esto no sería posible. Los amo. 💖
   },
   // ... Otros productos
   {
-    nombre: "Pinza Destino ✨",
-    descripcion: "Sujeta tu cabello con estilo y energía linda, como vos 💜.",
-    precio: 8000,
-    imagen: "https://i.postimg.cc/ncvW0dZV/Whats-App-Image-2025-06-14-at-07-09-37.jpg"
+   nombre: "Kitti kiss🐈‍",
+    descripcion: "Hidrata, cuida y resalta tu belleza natural.  .",
+    precio: 15000,
+    imagen: "https://i.postimg.cc/sDqcXwRd/Whats-App-Image-2025-06-20-at-06-44-26.jpg"
   },
   // ... Otros productos
   {
-    nombre: "Tint Hechizo 💜",
-    descripcion: "Brillo, color y actitud. Todo en uno, como vos..",
+     nombre: "Lip oil ✨",
+    descripcion: "Nutre, repara brillo natural que cambia con el pH de tus labios.",
     precio: 11500,
-    imagen: "https://i.postimg.cc/9XN9sVmJ/Whats-App-Image-2025-06-14-at-07-09-36.jpg"
+    imagen: "https://i.postimg.cc/pTM8b68k/Whats-App-Image-2025-06-20-at-06-44-25.jpg"
   }
 
     ];
