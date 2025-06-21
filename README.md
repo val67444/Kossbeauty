@@ -550,7 +550,7 @@ body.dark .seccion-delivery {
  
    <div class="seccion-delivery" style="text-align: center; padding: 20px;">
   <h2>Envíos y Entregas 🚚</h2>
-  <p>📍 Envíos disponibles en todo Asunción y Fernando zona sur </p>
+  <p>📍 Envíos disponibles en todo Asunción, Fernando zona sur y San lorenzo </p>
   <p>🕐 Coordinamos horarios flexibles.</p>
   <p>💰 Costo de delivery varía según zona .</p>
   <p>💜 También podés retirar en zona <strong>Fernando zona sur </strong>.</p>
