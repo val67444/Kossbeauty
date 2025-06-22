@@ -626,7 +626,7 @@ Sin ustedes, esto no sería posible. Los amo. 💖
   {
     nombre: "Mascarilla Facial 🍃",
     descripcion: "Cuida tu piel con frescura y amor. Mascarillas nutritivas que limpian, hidratan y renuevan tu rostro. ¡Ritual de belleza en minutos!",
-    precio: 1500,
+    precio: 1000,
     imagen: "https://i.postimg.cc/Y2WZSYYN/Whats-App-Image-2025-06-13-at-13-57-04.jpg"
   },
   {
@@ -666,13 +666,13 @@ Sin ustedes, esto no sería posible. Los amo. 💖
 {
   nombre: "Mascarilla para labios✨",
   descripcion: "Besitos suaves, labios renovados. Mientras dormís, ella hace su magia.",
-  precio: 5000,
+  precio: 4000,
   imagen: "https://i.postimg.cc/sgMdtVpP/Whats-App-Image-2025-06-20-at-07-34-29.jpg"
 },
 {
   nombre: "Mascarillas faciales frutales🍏",
   descripcion: "Despertá tu piel con un shot de energía. Textura ligera y perfume cítrico.",
-  precio: 6000,
+  precio: 5500,
   imagen: "https://i.postimg.cc/P5sQkyD6/Whats-App-Image-2025-06-20-at-07-34-29-1.jpg"
 }
 ];
